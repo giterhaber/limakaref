@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<div class="container">
+		<div class="form">
+			discord <input type="text" name="RollNo" id="discord" /> <br /> <br />
+			phrase <input type="text" name="name" id="phrase" /> <br /> <br />
+
+
+		</div>
+
+		<div class="buttons">
+
+			<button id="read">check</button>
+
+
+		</div>
+
+	</div>
+	<script src="https://www.gstatic.com/firebasejs/8.4.2/firebase.js"></script>  
+
+
+<script src="fireconfig.js" type=""></script>
+<script>
+var discordv, phrasev;
+
+// function readForm(){
+// 	discordv = document.getElementById("discord").value;
+// 	phrasev = document.getElementById("phrase").value;
+	
+// 	console.log(discordv, phrasev);
+// }
+
+document.getElementById("read").onclick = function () {
+	readForm();
+
+	firebase
+		.database()
+		.ref("discord/" + discordv)
+		.on("value", function(snap){
+			document.getElementById("discord").value = snap.val().discord;
+			document.getElementById("phrase").value = snap.val().phrase;
+
+
+		}
+
+
+
+			)
+
+};
+</script>
+<script src="check3.js" type=""></script>
+<script>
+	
+
+</script>
+
+
+</body>
+</html>
