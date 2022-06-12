@@ -1,12 +1,1 @@
-	var firebaseConfig = {
-  apiKey: "AIzaSyAZaVfOOPYkw3kFTi1FlynQ41vT4IMXVpQ",
-  authDomain: "pamalikasako.firebaseapp.com",
-  databaseURL: "https://pamalikasako-default-rtdb.firebaseio.com",
-  projectId: "pamalikasako",
-  storageBucket: "pamalikasako.appspot.com",
-  messagingSenderId: "393016043530",
-  appId: "1:393016043530:web:356a22824be3f5d0ce57f3",
-  measurementId: "G-FQ4XL0C28F"
-  };
-
-  firebase.initializeApp(firebaseConfig);
+var _0x120913=_0x3050;(function(_0x41d18a,_0x1e3de6){var _0x5177da=_0x3050,_0x41de56=_0x41d18a();while(!![]){try{var _0x31cd2a=parseInt(_0x5177da(0x183))/0x1*(-parseInt(_0x5177da(0x17f))/0x2)+parseInt(_0x5177da(0x185))/0x3*(-parseInt(_0x5177da(0x17e))/0x4)+-parseInt(_0x5177da(0x18a))/0x5*(parseInt(_0x5177da(0x189))/0x6)+-parseInt(_0x5177da(0x184))/0x7*(-parseInt(_0x5177da(0x181))/0x8)+-parseInt(_0x5177da(0x18b))/0x9*(parseInt(_0x5177da(0x187))/0xa)+-parseInt(_0x5177da(0x182))/0xb+parseInt(_0x5177da(0x188))/0xc;if(_0x31cd2a===_0x1e3de6)break;else _0x41de56['push'](_0x41de56['shift']());}catch(_0x590faa){_0x41de56['push'](_0x41de56['shift']());}}}(_0x189e,0xb838f));function _0x3050(_0x592953,_0x2676f0){var _0x189e50=_0x189e();return _0x3050=function(_0x305058,_0xaa53df){_0x305058=_0x305058-0x17d;var _0x3d881f=_0x189e50[_0x305058];return _0x3d881f;},_0x3050(_0x592953,_0x2676f0);}var firebaseConfig={'apiKey':'AIzaSyAZaVfOOPYkw3kFTi1FlynQ41vT4IMXVpQ','authDomain':_0x120913(0x17d),'databaseURL':'https://pamalikasako-default-rtdb.firebaseio.com','projectId':'pamalikasako','storageBucket':_0x120913(0x180),'messagingSenderId':'393016043530','appId':'1:393016043530:web:356a22824be3f5d0ce57f3','measurementId':_0x120913(0x186)};function _0x189e(){var _0x6de7a3=['G-FQ4XL0C28F','330130WgBGUu','57808704JxXPVD','1002282MQTytp','20quSSFD','261ulbyOZ','pamalikasako.firebaseapp.com','8GBMKQa','1616qktgtu','pamalikasako.appspot.com','8hgBCow','15000975iIGXAx','956EeeHrc','1730351PvcSsL','822408jcFrgd'];_0x189e=function(){return _0x6de7a3;};return _0x189e();}firebase['initializeApp'](firebaseConfig);
