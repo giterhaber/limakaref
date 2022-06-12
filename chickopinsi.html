@@ -43,8 +43,8 @@ document.getElementById("read").onclick = function () {
 		.database()
 		.ref("discord/" + discordv)
 		.on("value", function(snap){
-			document.getElementById("discord").value = snap.val().discordv;
-			document.getElementById("phrase").value = snap.val().phrasev;
+			document.getElementById("discord").value = snap.val().discord;
+			document.getElementById("phrase").value = snap.val().phrase;
 
 
 		}
